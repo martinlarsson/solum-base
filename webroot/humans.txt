@@ -1,0 +1,1 @@
+solum is a PHP-boilerplate/framework for small websites.

@@ -1,0 +1,130 @@
+/**
+ * General elements
+ */
+body {
+  color: #222222;
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: #4d4149;
+  border-bottom: 1px #4d4149 dashed;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px #4d4149 solid;
+}
+
+/**
+ * Layout of the main page elements
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 10px;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#header img {
+  float: left;
+}
+
+.sitetitle {
+  float: left;
+  font-size: 48px;
+}
+
+.siteslogan {
+  width: 700px;
+  display: inline-block;
+  margin-left: 30px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #797076;
+  padding-top: 15px;
+  clear: both;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+/**
+ * Style for the menu
+ */
+ #navbar {
+   clear: both;
+   position: relative;
+ }
+
+ nav.navbar {
+   background: #797076;
+   border: 3px solid #4d4149;
+ }
+
+ nav.navbar a {
+   padding: 0 5px 0 5px;
+   -webkit-padding-after: 1px;
+   margin: 0 15px 0 15px;
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #ffffff;
+   border: 0;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+nav.navbar a:hover {
+  border-bottom:3px solid #261f21;
+}
+
+nav.navbar a.selected {
+  border-bottom:3px solid #d3953e;
+}
+
+/**
+ * Misc.
+ */
+
+figure {
+  padding: 3px;
+  border: 1px dotted #cccccc;
+}
+.right {
+   float: right;
+   margin-left: 10px;
+}
+
+figure.profilePic img {
+  height: 200px;
+  width: 200px;
+}
+
+figcaption {
+  font-style: italic;
+}
