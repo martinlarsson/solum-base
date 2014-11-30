@@ -22,7 +22,7 @@ $solum['main'] = <<<EOD
 EOD;
 
 $solum['footer'] = <<<EOD
-<footer><span class='sitefooter'>Martin Larsson | <a href='#'>solum på GitHub</a> | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a></span></footer>
+<footer><span class='sitefooter'>Martin Larsson | <a href='https://github.com/martinlarsson/solum-base'>solum på GitHub</a> | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a></span></footer>
 EOD;
 
 
